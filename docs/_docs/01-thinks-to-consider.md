@@ -5,7 +5,6 @@ excerpt: "Prerequisites when building an ARM based fuzzing cluster"
 toc: true
 ---
 
-
 Welcome to my article about building an ARM based fuzzing cluster. Some time ago, I got asked if I could write a few lines about this thing I build here at home
 A little disclaimier in the beginning: this is an ongoing little side project with lots and lots of things to improve. My main goal was to get a cheap little fuzzing setup which runs mostly by itself, doesn't consume too much energy and doesn't make too much noise. It was mainly build for me to have a good time, test some setups and get some crashes on the side.
 Also, if you're expecting too much special setups for the ARM environment, I probably have bad news for you - a big aspect of the configuration could also be easily applied to a classical fuzzing cluster using x86 hosted somewhere in the cloud. When it comes to the specialities of the ARM environment and how this would effect a smart fuzzing environment, these might be things that I learn while using and tweaking it.
