@@ -1,0 +1,20 @@
+echo "
+127.0.0.1 localhost
+127.0.1.1 pine64
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+192.168.150.200 pine64_0
+192.168.150.201 pine64_1
+192.168.150.202 pine64_2
+192.168.150.203 pine64_3
+192.168.150.204 pine64_4
+192.168.150.205 pine64_5
+192.168.150.206 pine64_6
+192.168.150.207 pine64_7
+192.168.150.208 pine64_8
+192.168.150.209 pine64_9" | sudo tee /etc/hosts

@@ -1,0 +1,6 @@
+echo "if [ -z \"\$(ls -A /fuzzing/libyaml)\" ]; then
+   echo "Empty"
+else
+    
+    tar -C /fuzzing -czvf /home/fuzzing/fuzzbackup.tar.gz libyaml
+fi" | sudo tee /root/packramdisk.sh

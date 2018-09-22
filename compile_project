@@ -1,0 +1,2 @@
+cd projects/libyaml
+export AFL_HARDEN=1 CC=afl-clang-fast && export CXX=afl-g++ && ./configure --disable-shared && make clean && AFL_HARDEN=1 make

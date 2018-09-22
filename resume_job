@@ -1,0 +1,8 @@
+# Resume or start our examplaric fuzzing job
+# If you reuse that, change the according folder names
+
+#tar xzvf fuzzbackup.tar.gz.bak -C /fuzzing
+cd /fuzzing/libyaml
+rm -rf output/*
+mkdir output
+for i in {0..3} ; do screen -dmS `hostname`_$i bash -c "AFL_PRELOAD=/home/fuzzing/afl-2.52b/libdislocator/libdislocator.so afl-fuzz -S `hostname`_$i -x yaml_dict.txt -i input -o output ./tests/run-parser @@" ; done

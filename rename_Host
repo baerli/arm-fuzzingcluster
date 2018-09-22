@@ -1,0 +1,2 @@
+sudo sysctl kernel.hostname=pine64_`hostname -I | cut -d' ' -f1 | tail -c 2`
+echo `hostname` | sudo tee /etc/hostname

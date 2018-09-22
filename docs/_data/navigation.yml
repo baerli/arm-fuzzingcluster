@@ -1,0 +1,41 @@
+# main links
+main:
+  - title: "Prerequisites"
+    url: /docs/thinks-to-consider/
+  - title: "Setup"
+    url: /docs/basic-configuration/
+  - title: "Deploying"
+    url: /docs/compile-and-deploy/
+  - title: "About"
+    url: /about/
+
+
+
+# documentation links
+docs:
+  - title: Prerequisites
+    children:
+      - title: "Thinks to consider"
+        url: /docs/thinks-to-consider/
+      - title: "Hardware"
+        url: /docs/hardware/
+      - title: "Operating System"
+        url: /docs/operating-system/
+  - title: "Setup and Configuration"
+    children:
+      - title: "Basic configuration"
+        url: /docs/basic-configuration/
+      - title: "Compressed RAM disk"
+        url: /docs/ram-disk/
+      - title: "Managing nodes"
+        url: /docs/managing-nodes/
+  - title: Deploying a fuzzing job
+    children:
+      - title: "Compile and deploy"
+        url: /docs/compile-and-deploy/
+      - title: "Synchronising and corpus minimization"
+        url: /docs/synchronize
+      - title: "Additional notes"
+        url: /docs/additional-notes/
+
+

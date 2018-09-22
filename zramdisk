@@ -1,0 +1,7 @@
+sudo swapoff -a
+sudo rmmod zram
+sudo modprobe zram num_devices=1
+echo 700M | sudo tee /sys/block/zram0/disksize
+sudo mke2fs -q -m 0 -b 4096 -O sparse_super -L zram /dev/zram0
+sudo umount /fuzzing
+sudo mount -o relatime,nosuid /dev/zram0 /fuzzing
