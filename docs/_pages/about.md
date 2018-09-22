@@ -6,7 +6,7 @@ toc: true
 ---
 
 I am a penetration tester working from Berlin, Germany. From January 2019 on, I will be working on contract base, which means you can contact and hire me!
-Contact me on 
+Contact me on twitter @c4tch4ll.
 
 Some, but not all of the stuff I am doing is listed below:
 

@@ -14,10 +14,10 @@ locale                   : "en-US"
 title                    : "Building an ARM based Fuzzing Cluster"
 title_separator          : "-"
 name                     : &name "Johannes Baer" # &name is a YAML anchor which can be *referenced later
-description              : &description "Quick tutorial for building your own cheap, ARM based fuzzing cluster"
+description              : &description "Quick article about building your own cheap, ARM based fuzzing cluster"
 url                      : https://baerli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/arm-fuzzingcluster/" # the subpath of your site, e.g. "/blog"
-repository               : "arm-fuzzingcluster/"
+repository               : "baerli/arm-fuzzingcluster"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
